@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2023.1.4)  4 JAN 2023 07:13
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2023.1.4)  4 JAN 2023 07:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -306,17 +306,17 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 
 Package fontspec Info: Font family 'Roboto(0)' created for font 'Roboto' with
-(fontspec)             options [Ligatures=TeX,SizeFeatures={Size=9}].
+(fontspec)             options [Ligatures=TeX,SizeFeatures={Size=8.5}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <9>"Roboto/OT:script=latn;language=dflt;mapping=tex-text
-;"
+(fontspec)             <8.5>"Roboto/OT:script=latn;language=dflt;mapping=tex-te
+xt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <9>"Roboto/OT:script=latn;language=dflt;+smcp;mapping=te
-x-text;"
+(fontspec)             <8.5>"Roboto/OT:script=latn;language=dflt;+smcp;mapping=
+tex-text;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
 (fontspec)             <->"Roboto/B/OT:script=latn;language=dflt;mapping=tex-te
 xt;"
@@ -339,7 +339,7 @@ ext;"
 
 
 LaTeX Font Warning: Font shape `TU/Roboto(0)/m/n' in size <10> not available
-(Font)              size <9> substituted on input line 15.
+(Font)              size <8.5> substituted on input line 15.
 
 
 Package fontspec Info: Font family 'SFMono-Regular.otf(0)' created for font
@@ -493,18 +493,18 @@ Package hyperref Warning: Rerun to get /PageLabels entry.
 
 Package fontspec Info: Font family 'Roboto(1)' created for font 'Roboto' with
 (fontspec)             options
-(fontspec)             [Ligatures=TeX,SizeFeatures={Size=9},Color=slate].
+(fontspec)             [Ligatures=TeX,SizeFeatures={Size=8.5},Color=slate].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <9>"Roboto/OT:script=latn;language=dflt;mapping=tex-text
-;color=4D4D47FF
+(fontspec)             <8.5>"Roboto/OT:script=latn;language=dflt;mapping=tex-te
+xt;color=4D4D47FF
 (fontspec)             ;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <9>"Roboto/OT:script=latn;language=dflt;+smcp;mapping=te
-x-text;color=4D4D47FF
+(fontspec)             <8.5>"Roboto/OT:script=latn;language=dflt;+smcp;mapping=
+tex-text;color=4D4D47FF
 (fontspec)             ;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
 (fontspec)             <->"Roboto/B/OT:script=latn;language=dflt;mapping=tex-te
@@ -533,28 +533,28 @@ ext;color=4D4D47FF
 
 
 LaTeX Font Warning: Font shape `TU/Roboto(1)/m/n' in size <10> not available
-(Font)              size <9> substituted on input line 40.
+(Font)              size <8.5> substituted on input line 40.
 
 
 LaTeX Font Warning: Font shape `TU/Roboto(1)/m/n' in size <40> not available
-(Font)              size <9> substituted on input line 42.
+(Font)              size <8.5> substituted on input line 42.
 
 
 Package fontspec Info: Font family 'Roboto(2)' created for font 'Roboto' with
 (fontspec)             options
-(fontspec)             [Ligatures=TeX,SizeFeatures={Size=9},Color=slate,Color=h
-ighlight].
+(fontspec)             [Ligatures=TeX,SizeFeatures={Size=8.5},Color=slate,Color
+=highlight].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <9>"Roboto/OT:script=latn;language=dflt;mapping=tex-text
-;color=C24A54FF
+(fontspec)             <8.5>"Roboto/OT:script=latn;language=dflt;mapping=tex-te
+xt;color=C24A54FF
 (fontspec)             ;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <9>"Roboto/OT:script=latn;language=dflt;+smcp;mapping=te
-x-text;color=C24A54FF
+(fontspec)             <8.5>"Roboto/OT:script=latn;language=dflt;+smcp;mapping=
+tex-text;color=C24A54FF
 (fontspec)             ;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
 (fontspec)             <->"Roboto/B/OT:script=latn;language=dflt;mapping=tex-te
@@ -583,11 +583,11 @@ ext;color=C24A54FF
 
 
 LaTeX Font Warning: Font shape `TU/Roboto(2)/m/n' in size <40> not available
-(Font)              size <9> substituted on input line 42.
+(Font)              size <8.5> substituted on input line 42.
 
 
 LaTeX Font Warning: Font shape `TU/Roboto(2)/m/sc' in size <40> not available
-(Font)              size <9> substituted on input line 42.
+(Font)              size <8.5> substituted on input line 42.
 
 
 Package fontspec Info: Font family 'SFMono-Regular.otf(1)' created for font
@@ -611,15 +611,15 @@ Space,Color=darkslate].
 
 
 LaTeX Font Warning: Font shape `TU/Roboto(0)/m/n' in size <8> not available
-(Font)              size <9> substituted on input line 55.
+(Font)              size <8.5> substituted on input line 55.
 
 
 LaTeX Font Warning: Font shape `TU/Roboto(0)/m/n' in size <6> not available
-(Font)              size <9> substituted on input line 55.
+(Font)              size <8.5> substituted on input line 55.
 
 
 LaTeX Font Warning: Font shape `TU/Roboto(0)/m/n' in size <5> not available
-(Font)              size <9> substituted on input line 55.
+(Font)              size <8.5> substituted on input line 55.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 55.
@@ -634,24 +634,24 @@ LaTeX Font Warning: Font shape `TU/Roboto(1)/Roboto/n' undefined
 
 LaTeX Font Warning: Font shape `TU/Roboto(1)/Roboto/n' in size <10> not availab
 le
-(Font)              size <9> substituted on input line 65.
+(Font)              size <8.5> substituted on input line 65.
 
 
 Package fontspec Info: Font family 'Roboto(3)' created for font 'Roboto' with
 (fontspec)             options
-(fontspec)             [Ligatures=TeX,SizeFeatures={Size=9},Color=slate,LetterS
-pace=10].
+(fontspec)             [Ligatures=TeX,SizeFeatures={Size=8.5},Color=slate,Lette
+rSpace=10].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <9>"Roboto/OT:script=latn;language=dflt;letterspace=10;m
-apping=tex-text;color=4D4D47FF
+(fontspec)             <8.5>"Roboto/OT:script=latn;language=dflt;letterspace=10
+;mapping=tex-text;color=4D4D47FF
 (fontspec)             ;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <9>"Roboto/OT:script=latn;language=dflt;letterspace=10;+
-smcp;mapping=tex-text;color=4D4D47FF
+(fontspec)             <8.5>"Roboto/OT:script=latn;language=dflt;letterspace=10
+;+smcp;mapping=tex-text;color=4D4D47FF
 (fontspec)             ;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
 (fontspec)             <->"Roboto/B/OT:script=latn;language=dflt;letterspace=10
@@ -684,29 +684,29 @@ LaTeX Font Warning: Font shape `TU/Roboto(3)/Roboto/n' undefined
 
 
 LaTeX Font Warning: Font shape `TU/Roboto(3)/m/n' in size <10> not available
-(Font)              size <9> substituted on input line 65.
+(Font)              size <8.5> substituted on input line 65.
 
 
 LaTeX Font Warning: Font shape `TU/Roboto(3)/Roboto/n' in size <10> not availab
 le
-(Font)              size <9> substituted on input line 65.
+(Font)              size <8.5> substituted on input line 65.
 
 
 Package fontspec Info: Font family 'Roboto(4)' created for font 'Roboto' with
 (fontspec)             options
-(fontspec)             [Ligatures=TeX,SizeFeatures={Size=9},Color=slate,LetterS
-pace=10,Color=highlight].
+(fontspec)             [Ligatures=TeX,SizeFeatures={Size=8.5},Color=slate,Lette
+rSpace=10,Color=highlight].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <9>"Roboto/OT:script=latn;language=dflt;letterspace=10;m
-apping=tex-text;color=C24A54FF
+(fontspec)             <8.5>"Roboto/OT:script=latn;language=dflt;letterspace=10
+;mapping=tex-text;color=C24A54FF
 (fontspec)             ;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <9>"Roboto/OT:script=latn;language=dflt;letterspace=10;+
-smcp;mapping=tex-text;color=C24A54FF
+(fontspec)             <8.5>"Roboto/OT:script=latn;language=dflt;letterspace=10
+;+smcp;mapping=tex-text;color=C24A54FF
 (fontspec)             ;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
 (fontspec)             <->"Roboto/B/OT:script=latn;language=dflt;letterspace=10
@@ -739,24 +739,29 @@ LaTeX Font Warning: Font shape `TU/Roboto(4)/Roboto/n' undefined
 
 
 LaTeX Font Warning: Font shape `TU/Roboto(4)/m/n' in size <10> not available
-(Font)              size <9> substituted on input line 65.
+(Font)              size <8.5> substituted on input line 65.
+
+
+LaTeX Font Warning: Font shape `TU/Roboto(4)/Roboto/n' in size <9> not availabl
+e
+(Font)              size <8.5> substituted on input line 65.
 
 
 Package fontspec Info: Font family 'Roboto(5)' created for font 'Roboto' with
 (fontspec)             options
-(fontspec)             [Ligatures=TeX,SizeFeatures={Size=9},Color=slate,Color=d
-arkslate].
+(fontspec)             [Ligatures=TeX,SizeFeatures={Size=8.5},Color=slate,Color
+=darkslate].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <9>"Roboto/OT:script=latn;language=dflt;mapping=tex-text
-;color=2E2E29FF
+(fontspec)             <8.5>"Roboto/OT:script=latn;language=dflt;mapping=tex-te
+xt;color=2E2E29FF
 (fontspec)             ;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
-(fontspec)             <9>"Roboto/OT:script=latn;language=dflt;+smcp;mapping=te
-x-text;color=2E2E29FF
+(fontspec)             <8.5>"Roboto/OT:script=latn;language=dflt;+smcp;mapping=
+tex-text;color=2E2E29FF
 (fontspec)             ;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
 (fontspec)             <->"Roboto/B/OT:script=latn;language=dflt;mapping=tex-te
@@ -785,7 +790,7 @@ ext;color=2E2E29FF
 
 
 LaTeX Font Warning: Font shape `TU/Roboto(5)/m/n' in size <10> not available
-(Font)              size <9> substituted on input line 70.
+(Font)              size <8.5> substituted on input line 70.
 
 
 Package fontspec Info: Font family 'SFMono-Regular.otf(2)' created for font
@@ -809,21 +814,21 @@ Space,Color=slate].
 
 
 LaTeX Font Warning: Font shape `TU/Roboto(0)/m/n' in size <7> not available
-(Font)              size <9> substituted on input line 86.
+(Font)              size <8.5> substituted on input line 86.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 86.
 
 LaTeX Font Warning: Font shape `TU/Roboto(4)/Roboto/n' in size <10> not availab
 le
-(Font)              size <9> substituted on input line 145.
+(Font)              size <8.5> substituted on input line 145.
 
 [1
 
 ] (resume.aux)
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 31.0pt have occurred.
+(Font)              up to 31.5pt have occurred.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -838,10 +843,10 @@ Package rerunfilecheck Info: Checksums for `resume.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 11787 strings out of 410527
- 239319 string characters out of 2813165
- 646212 words of memory out of 3000000
- 32826 multiletter control sequences out of 15000+600000
+ 11788 strings out of 410527
+ 239386 string characters out of 2813165
+ 646216 words of memory out of 3000000
+ 32827 multiletter control sequences out of 15000+600000
  471826 words of font info for 83 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  72i,6n,85p,288b,470s stack positions out of 10000i,1000n,20000p,200000b,80000s
