@@ -1,0 +1,373 @@
+% !TEX program = xelatex
+
+\documentclass{article}
+\usepackage{fullpage}
+\usepackage[inline]{enumitem}
+\usepackage{xhfill}
+\usepackage[letter,margin=0.5in]{geometry}
+\usepackage{fontspec}
+\usepackage{hyperref}
+
+% 4.2mm 7mm 0.18mm 3mm
+
+\setlength{\parindent}{0pt}
+\setlist{nolistsep}
+\setmainfont{Roboto}[SizeFeatures={Size=9}]
+\setmonofont{SFMono-Regular.otf}
+\thispagestyle{empty}
+\definecolor{highlight}{rgb}{0.76, 0.29, 0.33}
+\definecolor{darkerslate}{rgb}{0.14, 0.14, 0.13}
+\definecolor{darkslate}{rgb}{0.18, 0.18, 0.16}
+\definecolor{slate}{rgb}{0.30, 0.30, 0.28}
+\definecolor{lightslate}{rgb}{0.38, 0.4, 0.44}
+\definecolor{lighterslate}{rgb}{0.84, 0.84, 0.82}
+
+\newcommand{\heading} [1] {
+    {\fontseries{Roboto} \selectfont \addfontfeature{LetterSpace=10} \addfontfeature{Color=highlight} \small \textbf{#1}}
+}
+
+\newcommand{\sectiontitle} [1] {
+    {\addfontfeature{Color=darkslate} \textbf{#1}}
+}
+
+\newcommand{\tag} [1] {
+    {\ttfamily \footnotesize \addfontfeature{Color=slate} {#1}}
+}
+
+\newcommand{\raisedrule}[2][0em]{\textcolor{lighterslate}{\leaders\hbox{\rule[#1]{1pt}{#2}}\hfill}}
+
+\begin{document}
+\addfontfeature{Color=slate}
+\hspace*{-1.5mm}
+{\fontsize{40pt}{0pt}\selectfont \addfontfeature{Color=highlight} \scshape \textbf{Brandon Hua}}
+
+\vspace*{4.2mm}
+
+\hspace*{-1mm}
+{\ttfamily \large \addfontfeature{Color=darkslate} Software Engineer}
+
+\vspace*{3mm}
+
+\hspace*{-2.65mm}
+{\ttfamily \footnotesize
+\begin{itemize*}[label=$\diamond$]
+	\item[] huabrandon0@gmail.com
+	\item \href{https://www.bhua.dev/}{bhua.dev}
+	\item \href{https://github.com/huabrandon0}{github.com/huabrandon0}
+	\item \href{https://www.linkedin.com/in/brandon-hua/}{linkedin.com/in/brandon-hua}
+\end{itemize*}
+}
+
+\vspace*{10mm}
+
+\begin{minipage}[t]{0.65\textwidth}
+    \raggedright
+    \heading{EXPERIENCE} \raisedrule[0.3em]{1pt}
+
+    \vspace*{4.2mm}
+
+    \begin{minipage}[t]{0.3\textwidth}
+        \sectiontitle{Meta}
+
+        \vspace*{0.2mm}
+
+        \tag{Apr 2022 - Nov 2022}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.65\textwidth}
+        \raggedright
+        \sectiontitle{iOS Engineer}
+
+        \vspace*{0.2mm}
+
+        \tag{Menlo Park, CA}
+
+        \vspace*{1.8mm}
+        \begin{itemize}[leftmargin=*, label=$\triangleright$]
+            \item Built out badge notifications within Messenger calls to attract user attention to new features
+            \item Implemented logging within avatar video calling to retrieve comprehensive usage data
+            \item Resolved user-reported bugs related to avatar video calling across Messenger and Instagram
+        \end{itemize}
+    \end{minipage}
+
+    \vspace*{4.2mm}
+
+    \begin{minipage}[t]{0.3\textwidth}
+        \sectiontitle{Light \& Wonder}
+
+        \vspace*{0.2mm}
+
+        \tag{Jul 2021 - Mar 2022}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.65\textwidth}
+        \raggedright
+        \sectiontitle{Game Development Intern}
+
+        \vspace*{0.2mm}
+
+        \tag{Las Vegas, NV}
+
+        \vspace*{1.8mm}
+        \begin{itemize}[leftmargin=*, label=$\triangleright$]
+            \item Developed a "progressive scroll" feature to advertise potential jackpot winnings to slot machine players
+            \item Implemented "backdoor jackpots" into a slot machine game to keep long-term payouts between legal bounds
+        \end{itemize}
+    \end{minipage}
+
+    \vspace*{4.2mm}
+    
+    \begin{minipage}[t]{0.3\textwidth}
+        \sectiontitle{Dolby}
+
+        \vspace*{0.2mm}
+
+        \tag{Sep 2019 - Jun 2020}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.65\textwidth}
+        \raggedright
+        \sectiontitle{Software Engineering Intern}
+
+        \vspace*{0.2mm}
+
+        \tag{Sunnyvale, CA}
+
+        \vspace*{1.8mm}
+        \begin{itemize}[leftmargin=*, label=$\triangleright$]
+            \item Wrote profilers using OpenGL to measure GPU costs of HDR image blending
+            \item Prototyped and tested an algorithm used to reduce CPU usage during the display of Dolby Vision encoded videos
+        \end{itemize}
+    \end{minipage}
+
+    \vspace*{7mm}
+
+    \heading{EDUCATION} \raisedrule[0.3em]{1pt}
+
+    \vspace*{4.2mm}
+
+    \begin{minipage}[t]{0.5\textwidth}
+        \sectiontitle{University of California, Los Angeles}
+
+        \vspace*{0.2mm}
+
+        \tag{2015 - 2022}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.45\textwidth}
+        \sectiontitle{M.S. Computer Science}
+
+        \vspace*{0.2mm}
+
+        GPA: 4.0 (Thesis Incomplete)
+
+        \vspace*{1.8mm}
+
+        \tag{2020 - 2022}
+
+        \vspace*{4.2mm}
+
+        \sectiontitle{B.S. Computer Science}
+
+        \vspace*{0.2mm}
+
+        GPA: 3.75
+
+        \vspace*{1.8mm}
+
+        \tag{2015 - 2019}
+    \end{minipage}
+
+    \vspace*{7mm}
+
+    \heading{SKILLS} \raisedrule[0.3em]{1pt}
+
+    \vspace*{4.2mm}
+
+    \sectiontitle{Programming}
+
+    \vspace*{0.2mm}
+
+    \tag{
+        \hspace*{-3.5mm}
+        \begin{itemize*}[label={}]
+            \item Objective-C
+            \item C\#
+            \item C/C++
+            \item Python
+            \item JavaScript
+            \item TypeScript
+            \item HTML
+            \item CSS
+        \end{itemize*}
+    }
+
+    \vspace*{4.2mm}
+    
+    \sectiontitle{Tools/Frameworks}
+
+    \vspace*{0.2mm}
+    
+    \tag{
+        \hspace*{-3.5mm}
+        \begin{itemize*}[label={}]
+            \item iOS
+            \item XCode
+            \item Unity
+            \item OpenGL
+            \item React
+            \item NextJS
+            \item NodeJS
+            \item Git
+            \item Perforce
+        \end{itemize*}
+    }
+
+    \vspace*{4.2mm}
+
+    \sectiontitle{Design}
+
+    \vspace*{0.2mm}
+    
+    \tag{
+        \hspace*{-3.5mm}
+        \begin{itemize*}[label={}]
+            \item Figma
+            \item Photoshop
+        \end{itemize*}
+    }
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+    \raggedright
+    \heading{PROJECTS} \raisedrule[0.3em]{1pt}
+
+    \vspace*{4.2mm}
+
+    \sectiontitle{\textit{Your Name}: A Rhythm Game}
+
+    \vspace*{0.2mm}
+
+    A browser-based rhythm game themed after the animated movie \textit{Your Name} (2016)
+
+    \vspace*{1.8mm}
+
+    \tag{
+        \hspace*{-3.5mm}
+        \begin{itemize*}[label={}]
+            \item WebGL
+            \item JavaScript
+        \end{itemize*}
+    }
+
+    \vspace*{4.2mm}
+
+    \sectiontitle{Cyberpunk 2077 Airstrafing Mod}
+
+    \vspace*{0.2mm}
+
+    A mod that ports Source-style movement into Cyberpunk 2077
+
+    \vspace*{1.8mm}
+
+    \tag{
+        \hspace*{-3.5mm}
+        \begin{itemize*}[label={}]
+            \item Lua
+        \end{itemize*}
+    }
+    
+    \vspace*{4.2mm}
+
+    \sectiontitle{Simple Autobattler}
+
+    \vspace*{0.2mm}
+
+    A strategy game akin to Riot's Teamfight Tactics, built as a minimal working example of an autobattler game
+
+    \vspace*{1.8mm}
+
+    \tag{
+        \hspace*{-3.5mm}
+        \begin{itemize*}[label={}]
+            \item Unity
+            \item C\#
+        \end{itemize*}
+    }
+
+    \vspace*{4.2mm}
+
+    \sectiontitle{Machine Learning Autobattler AI}
+
+    \vspace*{0.2mm}
+
+    A strategy game AI built off of reinforcement learning algorithms
+
+    \vspace*{1.8mm}
+
+    \tag{
+        \hspace*{-3.5mm}
+        \begin{itemize*}[label={}]
+            \item Unity
+            \item C\#
+            \item ML-Agents
+        \end{itemize*}
+    }
+    
+    \vspace*{4.2mm}
+
+    \sectiontitle{Astro Dodge}
+
+    \vspace*{0.2mm}
+
+    A fast-paced endless runner game for mobile, complete with ads, in-app purchases, and cloud saves
+
+    \vspace*{1.8mm}
+
+    \tag{
+        \hspace*{-3.5mm}
+        \begin{itemize*}[label={}]
+            \item Unity
+            \item C\#
+            \item Android
+        \end{itemize*}
+    }
+    
+    \vspace*{4.2mm}
+
+    \sectiontitle{Domino Simulator}
+
+    \vspace*{0.2mm}
+
+    A virtual sandbox world that features many "quality of life" tools to make building domino structures easy
+
+    \vspace*{1.8mm}
+
+    \tag{
+        \hspace*{-3.5mm}
+        \begin{itemize*}[label={}]
+            \item Unity
+            \item C\#
+        \end{itemize*}
+    }
+    
+    \vspace*{4.2mm}
+
+    \sectiontitle{\href{https://www.bhua.dev/}{bhua.dev}}
+
+    \vspace*{0.2mm}
+
+    My portfolio website that showcases my professional experience and personal projects
+
+    \vspace*{1.8mm}
+
+    \tag{
+        \hspace*{-3.5mm}
+        \begin{itemize*}[label={}]
+            \item React
+            \item NextJS
+            \item TypeScript
+        \end{itemize*}
+    }
+\end{minipage}
+\end{document}
