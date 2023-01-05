@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2023.1.4)  4 JAN 2023 18:36
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2023.1.4)  4 JAN 2023 21:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -362,31 +362,31 @@ Space].
 No file resume.aux.
 \openout1 = `resume.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
-9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 5
+3.
 (C:\Users\huabr\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -428,62 +428,62 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 39.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 39.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 39.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 39.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 39.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 39.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 39.
-LaTeX Font Info:    Redeclaring math accent \check on input line 39.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 39.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 39.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 39.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 39.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 39.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 39.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 39.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 39.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 39.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 39.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 39.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 39.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 39.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 39.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 39.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 39.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 39.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 53.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 53.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 53.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 53.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 53.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 53.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 53.
+LaTeX Font Info:    Redeclaring math accent \check on input line 53.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 53.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 53.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 53.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 53.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 39.
+(Font)              `operators' in the math version `normal' on input line 53.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/Roboto(0)/m/n on input line 39.
+(Font)                  OT1/cmr/m/n --> TU/Roboto(0)/m/n on input line 53.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 39.
+(Font)              `operators' in the math version `bold' on input line 53.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/Roboto(0)/m/n on input line 39.
+(Font)                  OT1/cmr/bx/n --> TU/Roboto(0)/m/n on input line 53.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/Roboto(0)/m/n --> TU/Roboto(0)/m/n on input line 39.
+(Font)                  TU/Roboto(0)/m/n --> TU/Roboto(0)/m/n on input line 53.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/Roboto(0)/m/it on input line 39.
+(Font)                  OT1/cmr/m/it --> TU/Roboto(0)/m/it on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/Roboto(0)/b/n on input line 39.
+(Font)                  OT1/cmr/bx/n --> TU/Roboto(0)/b/n on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 39.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
 (Font)                  OT1/cmtt/m/n --> TU/SFMono-Regular.otf(0)/m/n on input 
-line 39.
+line 53.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/Roboto(0)/m/n --> TU/Roboto(0)/b/n on input line 39.
+(Font)                  TU/Roboto(0)/m/n --> TU/Roboto(0)/b/n on input line 53.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/Roboto(0)/b/it on input line 39.
+(Font)                  OT1/cmr/bx/it --> TU/Roboto(0)/b/it on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 39.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/SFMono-Regular.otf(0)/b/n on input 
-line 39.
-Package hyperref Info: Link coloring OFF on input line 39.
+line 53.
+Package hyperref Info: Link coloring OFF on input line 53.
 \@outlinefile=\write3
 \openout3 = `resume.out'.
 
@@ -533,11 +533,11 @@ ext;color=4D4D47FF
 
 
 LaTeX Font Warning: Font shape `TU/Roboto(1)/m/n' in size <10> not available
-(Font)              size <8.5> substituted on input line 40.
+(Font)              size <8.5> substituted on input line 54.
 
 
 LaTeX Font Warning: Font shape `TU/Roboto(1)/m/n' in size <40> not available
-(Font)              size <8.5> substituted on input line 42.
+(Font)              size <8.5> substituted on input line 55.
 
 
 Package fontspec Info: Font family 'Roboto(2)' created for font 'Roboto' with
@@ -583,11 +583,11 @@ ext;color=C24A54FF
 
 
 LaTeX Font Warning: Font shape `TU/Roboto(2)/m/n' in size <40> not available
-(Font)              size <8.5> substituted on input line 42.
+(Font)              size <8.5> substituted on input line 55.
 
 
 LaTeX Font Warning: Font shape `TU/Roboto(2)/m/sc' in size <40> not available
-(Font)              size <8.5> substituted on input line 42.
+(Font)              size <8.5> substituted on input line 55.
 
 
 Package fontspec Info: Font family 'SFMono-Regular.otf(1)' created for font
@@ -610,31 +610,51 @@ Space,Color=darkslate].
 (fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
 
 
+Package fontspec Info: Font family 'SFMono-Regular.otf(2)' created for font
+(fontspec)             'SFMono-Regular.otf' with options
+(fontspec)             [WordSpace={1,0,0},HyphenChar=None,PunctuationSpace=Word
+Space,Color=slate].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[SFMono-Regular.otf]/OT:language=dflt;color=4D4D47FF
+
+(fontspec)             ;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+
+
 LaTeX Font Warning: Font shape `TU/Roboto(0)/m/n' in size <8> not available
-(Font)              size <8.5> substituted on input line 55.
+(Font)              size <8.5> substituted on input line 71.
 
 
 LaTeX Font Warning: Font shape `TU/Roboto(0)/m/n' in size <6> not available
-(Font)              size <8.5> substituted on input line 55.
+(Font)              size <8.5> substituted on input line 71.
 
 
 LaTeX Font Warning: Font shape `TU/Roboto(0)/m/n' in size <5> not available
-(Font)              size <8.5> substituted on input line 55.
+(Font)              size <8.5> substituted on input line 71.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 55.
+(Font)              <8> on input line 71.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 55.
+(Font)              <6> on input line 71.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 55.
+(Font)              <5> on input line 71.
 
 LaTeX Font Warning: Font shape `TU/Roboto(1)/Roboto/n' undefined
-(Font)              using `TU/Roboto(1)/m/n' instead on input line 65.
+(Font)              using `TU/Roboto(1)/m/n' instead on input line 77.
 
 
 LaTeX Font Warning: Font shape `TU/Roboto(1)/Roboto/n' in size <10> not availab
 le
-(Font)              size <8.5> substituted on input line 65.
+(Font)              size <8.5> substituted on input line 77.
 
 
 Package fontspec Info: Font family 'Roboto(3)' created for font 'Roboto' with
@@ -680,16 +700,16 @@ rSpace=10].
 
 
 LaTeX Font Warning: Font shape `TU/Roboto(3)/Roboto/n' undefined
-(Font)              using `TU/Roboto(3)/m/n' instead on input line 65.
+(Font)              using `TU/Roboto(3)/m/n' instead on input line 77.
 
 
 LaTeX Font Warning: Font shape `TU/Roboto(3)/m/n' in size <10> not available
-(Font)              size <8.5> substituted on input line 65.
+(Font)              size <8.5> substituted on input line 77.
 
 
 LaTeX Font Warning: Font shape `TU/Roboto(3)/Roboto/n' in size <10> not availab
 le
-(Font)              size <8.5> substituted on input line 65.
+(Font)              size <8.5> substituted on input line 77.
 
 
 Package fontspec Info: Font family 'Roboto(4)' created for font 'Roboto' with
@@ -735,16 +755,16 @@ rSpace=10,Color=highlight].
 
 
 LaTeX Font Warning: Font shape `TU/Roboto(4)/Roboto/n' undefined
-(Font)              using `TU/Roboto(4)/m/n' instead on input line 65.
+(Font)              using `TU/Roboto(4)/m/n' instead on input line 77.
 
 
 LaTeX Font Warning: Font shape `TU/Roboto(4)/m/n' in size <10> not available
-(Font)              size <8.5> substituted on input line 65.
+(Font)              size <8.5> substituted on input line 77.
 
 
 LaTeX Font Warning: Font shape `TU/Roboto(4)/Roboto/n' in size <9> not availabl
 e
-(Font)              size <8.5> substituted on input line 65.
+(Font)              size <8.5> substituted on input line 77.
 
 
 Package fontspec Info: Font family 'Roboto(5)' created for font 'Roboto' with
@@ -790,34 +810,14 @@ ext;color=2E2E29FF
 
 
 LaTeX Font Warning: Font shape `TU/Roboto(5)/m/n' in size <10> not available
-(Font)              size <8.5> substituted on input line 70.
-
-
-Package fontspec Info: Font family 'SFMono-Regular.otf(2)' created for font
-(fontspec)             'SFMono-Regular.otf' with options
-(fontspec)             [WordSpace={1,0,0},HyphenChar=None,PunctuationSpace=Word
-Space,Color=slate].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[SFMono-Regular.otf]/OT:language=dflt;color=4D4D47FF
-
-(fontspec)             ;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
-(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
-(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
-(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(Font)              size <8.5> substituted on input line 82.
 
 
 LaTeX Font Warning: Font shape `TU/Roboto(0)/m/n' in size <7> not available
-(Font)              size <8.5> substituted on input line 86.
+(Font)              size <8.5> substituted on input line 94.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 86.
+(Font)              <7> on input line 94.
 
 LaTeX Font Warning: Font shape `TU/Roboto(4)/Roboto/n' in size <10> not availab
 le
@@ -843,12 +843,12 @@ Package rerunfilecheck Info: Checksums for `resume.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 11788 strings out of 410527
- 239386 string characters out of 2813165
- 646229 words of memory out of 3000000
- 32827 multiletter control sequences out of 15000+600000
- 471826 words of font info for 83 fonts, out of 8000000 for 9000
+ 11797 strings out of 410527
+ 239614 string characters out of 2813165
+ 646351 words of memory out of 3000000
+ 32832 multiletter control sequences out of 15000+600000
+ 471858 words of font info for 87 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 72i,6n,85p,299b,470s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 72i,6n,85p,299b,409s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
 Output written on resume.pdf (1 page).

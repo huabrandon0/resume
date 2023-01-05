@@ -8,7 +8,7 @@
 \usepackage{fontspec}
 \usepackage[hidelinks]{hyperref}
 
-% 4.2mm 7mm 0.18mm 3mm
+% 4.2mm 7mm 1.8mm 0.2mm 3mm
 
 \setlength{\parindent}{0pt}
 \setlist{nolistsep}
@@ -31,31 +31,43 @@
 }
 
 \newcommand{\tag} [1] {
+    {\ttfamily \scriptsize \addfontfeature{Color=slate} {#1}}
+}
+
+\newcommand{\largetag} [1] {
     {\ttfamily \footnotesize \addfontfeature{Color=slate} {#1}}
 }
 
 \newcommand{\raisedrule}[2][0em]{\textcolor{lighterslate}{\leaders\hbox{\rule[#1]{1pt}{#2}}\hfill}}
 
+\newcommand{\pagetitle} [1] {
+    \hspace*{-1.5mm}
+    {\fontsize{40pt}{0pt}\selectfont \addfontfeature{Color=highlight} \scshape \textbf{#1}}
+}
+
+\newcommand{\pagesubtitle} [1] {
+    \hspace*{-1mm}
+    {\ttfamily \large \addfontfeature{Color=darkslate} {#1}}
+}
+
 \begin{document}
 \addfontfeature{Color=slate}
-\hspace*{-1.5mm}
-{\fontsize{40pt}{0pt}\selectfont \addfontfeature{Color=highlight} \scshape \textbf{Brandon Hua}}
+\pagetitle{Brandon Hua}
 
 \vspace*{4.2mm}
 
-\hspace*{-1mm}
-{\ttfamily \large \addfontfeature{Color=darkslate} Software Engineer}
+\pagesubtitle{Software Engineer}
 
 \vspace*{3mm}
 
-\hspace*{-2.65mm}
-{\ttfamily \footnotesize
-\begin{itemize*}[label=$\diamond$]
-	\item[] huabrandon0@gmail.com
-	\item \href{https://www.bhua.dev/}{bhua.dev}
-	\item \href{https://github.com/huabrandon0}{github.com/huabrandon0}
-	\item \href{https://www.linkedin.com/in/brandon-hua/}{linkedin.com/in/brandon-hua}
-\end{itemize*}
+\largetag{
+    \hspace*{-3.6mm}
+    \begin{itemize*}[label=$\diamond$]
+        \item[] \href{mailto:huabrandon0@gmail.com}{huabrandon0@gmail.com}
+        \item \href{https://www.bhua.dev/}{bhua.dev}
+        \item \href{https://github.com/huabrandon0}{github.com/huabrandon0}
+        \item \href{https://www.linkedin.com/in/brandon-hua/}{linkedin.com/in/brandon-hua}
+    \end{itemize*}
 }
 
 \vspace*{10mm}
@@ -69,16 +81,12 @@
     \begin{minipage}[t]{0.3\textwidth}
         \sectiontitle{Meta}
 
-        \vspace*{0.2mm}
-
         \tag{Apr 2022 - Nov 2022}
     \end{minipage}
     \hfill
     \begin{minipage}[t]{0.65\textwidth}
         \raggedright
         \sectiontitle{iOS Engineer}
-
-        \vspace*{0.2mm}
 
         \tag{Menlo Park, CA}
 
@@ -95,16 +103,12 @@
     \begin{minipage}[t]{0.3\textwidth}
         \sectiontitle{Light \& Wonder}
 
-        \vspace*{0.2mm}
-
         \tag{Jul 2021 - Mar 2022}
     \end{minipage}
     \hfill
     \begin{minipage}[t]{0.65\textwidth}
         \raggedright
         \sectiontitle{Game Development Intern}
-
-        \vspace*{0.2mm}
 
         \tag{Las Vegas, NV}
 
@@ -120,16 +124,12 @@
     \begin{minipage}[t]{0.3\textwidth}
         \sectiontitle{Dolby}
 
-        \vspace*{0.2mm}
-
         \tag{Sep 2019 - Jun 2020}
     \end{minipage}
     \hfill
     \begin{minipage}[t]{0.65\textwidth}
         \raggedright
         \sectiontitle{Software Engineering Intern}
-
-        \vspace*{0.2mm}
 
         \tag{Sunnyvale, CA}
 
@@ -148,8 +148,6 @@
 
     \begin{minipage}[t]{0.5\textwidth}
         \sectiontitle{University of California, Los Angeles}
-
-        \vspace*{0.2mm}
 
         \tag{2015 - 2022}
     \end{minipage}
@@ -188,7 +186,7 @@
 
     \vspace*{0.2mm}
 
-    \tag{
+    \largetag{
         \hspace*{-3.5mm}
         \begin{itemize*}[label={}]
             \item Objective-C
@@ -208,7 +206,7 @@
 
     \vspace*{0.2mm}
     
-    \tag{
+    \largetag{
         \hspace*{-3.5mm}
         \begin{itemize*}[label={}]
             \item iOS
@@ -229,7 +227,7 @@
 
     \vspace*{0.2mm}
     
-    \tag{
+    \largetag{
         \hspace*{-3.5mm}
         \begin{itemize*}[label={}]
             \item Figma
@@ -248,12 +246,12 @@
 
     \vspace*{0.2mm}
 
-    A browser-based rhythm game themed after the animated movie \textit{Your Name} (2016)
+    A browser-based rhythm game themed after the animated movie {\fontsize{8.5}{8.5}\selectfont \textit{Your Name}} (2016)
 
     \vspace*{1.8mm}
 
     \tag{
-        \hspace*{-3.5mm}
+        \hspace*{-3mm}
         \begin{itemize*}[label={}]
             \item WebGL
             \item JavaScript
@@ -271,7 +269,7 @@
     \vspace*{1.8mm}
 
     \tag{
-        \hspace*{-3.5mm}
+        \hspace*{-3mm}
         \begin{itemize*}[label={}]
             \item Lua
         \end{itemize*}
@@ -288,7 +286,7 @@
     \vspace*{1.8mm}
 
     \tag{
-        \hspace*{-3.5mm}
+        \hspace*{-3mm}
         \begin{itemize*}[label={}]
             \item Unity
             \item C\#
@@ -306,7 +304,7 @@
     \vspace*{1.8mm}
 
     \tag{
-        \hspace*{-3.5mm}
+        \hspace*{-3mm}
         \begin{itemize*}[label={}]
             \item Unity
             \item C\#
@@ -325,7 +323,7 @@
     \vspace*{1.8mm}
 
     \tag{
-        \hspace*{-3.5mm}
+        \hspace*{-3mm}
         \begin{itemize*}[label={}]
             \item Unity
             \item C\#
@@ -344,7 +342,7 @@
     \vspace*{1.8mm}
 
     \tag{
-        \hspace*{-3.5mm}
+        \hspace*{-3mm}
         \begin{itemize*}[label={}]
             \item Unity
             \item C\#
@@ -362,7 +360,7 @@
     \vspace*{1.8mm}
 
     \tag{
-        \hspace*{-3.5mm}
+        \hspace*{-3mm}
         \begin{itemize*}[label={}]
             \item React
             \item NextJS
