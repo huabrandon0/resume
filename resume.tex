@@ -7,13 +7,15 @@
 \usepackage[letter,margin=0.5in]{geometry}
 \usepackage{fontspec}
 \usepackage[hidelinks]{hyperref}
+\usepackage{fontawesome}
+\usepackage{amssymb}
 
 % 4.2mm 7mm 1.8mm 0.2mm 3mm
 
+\setmainfont{Calibre-Regular.ttf}[SizeFeatures={Size=9.5},BoldFont=Calibre-Semibold.ttf,ItalicFont=Calibre-RegularItalic.ttf,BoldItalicFont=Calibre-SemiboldItalic.ttf]
+\setmonofont{SFMono-Regular.ttf}
 \setlength{\parindent}{0pt}
 \setlist{nolistsep}
-\setmainfont{Roboto}[SizeFeatures={Size=8.5}]
-\setmonofont{SFMono-Regular.otf}
 \thispagestyle{empty}
 \definecolor{highlight}{rgb}{0.76, 0.29, 0.33}
 \definecolor{darkerslate}{rgb}{0.14, 0.14, 0.13}
@@ -23,7 +25,7 @@
 \definecolor{lighterslate}{rgb}{0.84, 0.84, 0.82}
 
 \newcommand{\heading} [1] {
-    {\fontseries{Roboto} \selectfont \addfontfeature{LetterSpace=10} \addfontfeature{Color=highlight} \small \textbf{#1}}
+    {\addfontfeature{LetterSpace=10} \addfontfeature{Color=highlight} \small \textbf{#1}}
 }
 
 \newcommand{\sectiontitle} [1] {
@@ -52,29 +54,32 @@
 
 \begin{document}
 \addfontfeature{Color=slate}
+\begin{center}
 \pagetitle{Brandon Hua}
-
-\vspace*{4.2mm}
-
-\pagesubtitle{Software Engineer}
 
 \vspace*{3mm}
 
+\pagesubtitle{Software Engineer {\addfontfeature{Color=slate} |} SF Bay Area}
+
+\vspace*{7mm}
+
+\newcommand*{\github}[1]{\def\@github{#1}}
+
 \largetag{
-    \hspace*{-3.6mm}
-    \begin{itemize*}[label=$\diamond$]
-        \item[] \href{mailto:huabrandon0@gmail.com}{huabrandon0@gmail.com}
-        \item \href{https://www.bhua.dev/}{bhua.dev}
-        \item \href{https://github.com/huabrandon0}{github.com/huabrandon0}
-        \item \href{https://www.linkedin.com/in/brandon-hua/}{linkedin.com/in/brandon-hua}
+    \begin{itemize*}[label=\quad]
+        \item[] \href{mailto:huabrandon0@gmail.com}{\faEnvelope \enspace huabrandon0@gmail.com}
+        \item \href{https://www.bhua.dev/}{\faHome \enspace bhua.dev}
+        \item \href{https://github.com/huabrandon0}{\faGithubSquare \enspace github.com/huabrandon0}
+        \item \href{https://www.linkedin.com/in/brandon-hua/}{\faLinkedinSquare \enspace linkedin.com/in/brandon-hua}
     \end{itemize*}
 }
+\end{center}
 
 \vspace*{10mm}
 
 \begin{minipage}[t]{0.65\textwidth}
     \raggedright
-    \heading{EXPERIENCE} \raisedrule[0.3em]{1pt}
+    \heading{EXPERIENCE} \raisedrule[0.24em]{1pt}
 
     \vspace*{4.2mm}
 
@@ -91,7 +96,7 @@
         \tag{Menlo Park, CA}
 
         \vspace*{1.8mm}
-        \begin{itemize}[leftmargin=*, label=$\triangleright$]
+        \begin{itemize}[leftmargin=*, label=$\cdot$]
             \item Built out badge notifications within Messenger calls to attract user attention to new features
             \item Implemented logging within avatar video calling to retrieve comprehensive usage data
             \item Resolved user-reported bugs related to avatar video calling across Messenger and Instagram
@@ -110,10 +115,10 @@
         \raggedright
         \sectiontitle{Game Development Intern}
 
-        \tag{Las Vegas, NV}
+        \tag{Remote | Las Vegas, NV}
 
         \vspace*{1.8mm}
-        \begin{itemize}[leftmargin=*, label=$\triangleright$]
+        \begin{itemize}[leftmargin=*, label=$\cdot$]
             \item Developed a ``progressive scroll" feature to advertise potential jackpot winnings to slot machine players
             \item Implemented ``backdoor jackpots" into a slot machine game to keep long-term payouts between legal bounds
         \end{itemize}
@@ -134,7 +139,7 @@
         \tag{Sunnyvale, CA}
 
         \vspace*{1.8mm}
-        \begin{itemize}[leftmargin=*, label=$\triangleright$]
+        \begin{itemize}[leftmargin=*, label=$\cdot$]
             \item Wrote profilers using OpenGL to measure GPU costs of HDR image blending
             \item Prototyped and tested an algorithm used to reduce CPU usage during the display of Dolby Vision encoded videos
         \end{itemize}
@@ -142,17 +147,18 @@
 
     \vspace*{7mm}
 
-    \heading{EDUCATION} \raisedrule[0.3em]{1pt}
+    \heading{EDUCATION} \raisedrule[0.24em]{1pt}
 
     \vspace*{4.2mm}
 
-    \begin{minipage}[t]{0.5\textwidth}
+    \begin{minipage}[t]{0.3\textwidth}
+        \raggedright
         \sectiontitle{University of California, Los Angeles}
 
         \tag{2015 - 2022}
     \end{minipage}
     \hfill
-    \begin{minipage}[t]{0.45\textwidth}
+    \begin{minipage}[t]{0.65\textwidth}
         \sectiontitle{M.S. Computer Science}
 
         \vspace*{0.2mm}
@@ -178,7 +184,7 @@
 
     \vspace*{7mm}
 
-    \heading{SKILLS} \raisedrule[0.3em]{1pt}
+    \heading{SKILLS} \raisedrule[0.24em]{1pt}
 
     \vspace*{4.2mm}
 
@@ -238,7 +244,7 @@
 \hfill
 \begin{minipage}[t]{0.3\textwidth}
     \raggedright
-    \heading{PROJECTS} \raisedrule[0.3em]{1pt}
+    \heading{PROJECTS} \raisedrule[0.24em]{1pt}
 
     \vspace*{4.2mm}
 
@@ -246,7 +252,7 @@
 
     \vspace*{0.2mm}
 
-    A browser-based rhythm game themed after the animated movie {\fontsize{8.5}{8.5}\selectfont \textit{Your Name}} (2016)
+    A browser-based rhythm game themed after the animated movie \textit{Your Name} (2016)
 
     \vspace*{1.8mm}
 
