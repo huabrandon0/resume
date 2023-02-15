@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2023.1.4)  11 FEB 2023 18:27
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2023.1.4)  15 FEB 2023 00:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -357,16 +357,15 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 
 Package fontspec Info: Font family 'Calibre-Regular.ttf(0)' created for font
 (fontspec)             'Calibre-Regular.ttf' with options
-(fontspec)             [Ligatures=TeX,SizeFeatures={Size=9.5},BoldFont=Calibre-
-Semibold.ttf,ItalicFont=Calibre-RegularItalic.ttf,BoldItalicFont=Calibre-Semibo
-ldItalic.ttf].
+(fontspec)             [Ligatures=TeX,BoldFont=Calibre-Semibold.ttf,ItalicFont=
+Calibre-RegularItalic.ttf,BoldItalicFont=Calibre-SemiboldItalic.ttf].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <9.5>"[Calibre-Regular.ttf]/OT:script=latn;language=dflt
-;mapping=tex-text;"
+(fontspec)             <->"[Calibre-Regular.ttf]/OT:script=latn;language=dflt;m
+apping=tex-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
 (fontspec)             <->"[Calibre-Semibold.ttf]/OT:script=latn;language=dflt;
@@ -380,11 +379,6 @@ dflt;mapping=tex-text;"
 (fontspec)             <->"[Calibre-SemiboldItalic.ttf]/OT:script=latn;language
 =dflt;mapping=tex-text;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-
-
-LaTeX Font Warning: Font shape `TU/Calibre-Regular.ttf(0)/m/n' in size <10> not
- available
-(Font)              size <9.5> substituted on input line 15.
 
 
 Package fontspec Info: Font family 'SFMono-Regular.ttf(0)' created for font
@@ -404,34 +398,68 @@ Space].
 (fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
 (fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
 
+
+Package fontspec Info: Font family 'EBGaramond-Regular.ttf(0)' created for
+(fontspec)             font 'EBGaramond-Regular.ttf' with options
+(fontspec)             [BoldFont=EBGaramond-Bold.ttf,ItalicFont=EBGaramond-Ital
+ic.ttf,BoldItalicFont=EBGaramond-BoldItalic.ttf].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[EBGaramond-Regular.ttf]/OT:script=latn;language=dfl
+t;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"[EBGaramond-Regular.ttf]/OT:script=latn;language=dfl
+t;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[EBGaramond-Bold.ttf]/OT:script=latn;language=dflt;"
+
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"[EBGaramond-Bold.ttf]/OT:script=latn;language=dflt;+
+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[EBGaramond-Italic.ttf]/OT:script=latn;language=dflt
+;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"[EBGaramond-Italic.ttf]/OT:script=latn;language=dflt
+;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"[EBGaramond-BoldItalic.ttf]/OT:script=latn;language=
+dflt;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"[EBGaramond-BoldItalic.ttf]/OT:script=latn;language=
+dflt;+smcp;"
+
 No file resume.aux.
 \openout1 = `resume.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 5
-5.
+6.
 (C:\Users\huabr\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -473,67 +501,67 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 55.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 55.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 55.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 55.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 55.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 55.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 55.
-LaTeX Font Info:    Redeclaring math accent \check on input line 55.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 55.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 55.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 55.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 55.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 55.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 56.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 56.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 56.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 56.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 56.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 56.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 56.
+LaTeX Font Info:    Redeclaring math accent \check on input line 56.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 56.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 56.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 56.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 56.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 55.
+(Font)              `operators' in the math version `normal' on input line 56.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/Calibre-Regular.ttf(0)/m/n on input 
-line 55.
+line 56.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 55.
+(Font)              `operators' in the math version `bold' on input line 56.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/Calibre-Regular.ttf(0)/m/n on input
- line 55.
+ line 56.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/Calibre-Regular.ttf(0)/m/n --> TU/Calibre-Regular.tt
-f(0)/m/n on input line 55.
+f(0)/m/n on input line 56.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/Calibre-Regular.ttf(0)/m/it on inpu
-t line 55.
+t line 56.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/Calibre-Regular.ttf(0)/b/n on input
- line 55.
+ line 56.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 55.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 56.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
 (Font)                  OT1/cmtt/m/n --> TU/SFMono-Regular.ttf(0)/m/n on input 
-line 55.
+line 56.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/Calibre-Regular.ttf(0)/m/n --> TU/Calibre-Regular.tt
-f(0)/b/n on input line 55.
+f(0)/b/n on input line 56.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/Calibre-Regular.ttf(0)/b/it on inp
-ut line 55.
+ut line 56.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 55.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 56.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/SFMono-Regular.ttf(0)/b/n on input 
-line 55.
-Package hyperref Info: Link coloring OFF on input line 55.
+line 56.
+Package hyperref Info: Link coloring OFF on input line 56.
 \@outlinefile=\write3
 \openout3 = `resume.out'.
 
@@ -543,89 +571,75 @@ Package hyperref Warning: Rerun to get /PageLabels entry.
 
 Package fontspec Info: Font family 'Calibre-Regular.ttf(1)' created for font
 (fontspec)             'Calibre-Regular.ttf' with options
-(fontspec)             [Ligatures=TeX,SizeFeatures={Size=9.5},BoldFont=Calibre-
-Semibold.ttf,ItalicFont=Calibre-RegularItalic.ttf,BoldItalicFont=Calibre-Semibo
-ldItalic.ttf,Color=slate].
+(fontspec)             [Ligatures=TeX,BoldFont=Calibre-Semibold.ttf,ItalicFont=
+Calibre-RegularItalic.ttf,BoldItalicFont=Calibre-SemiboldItalic.ttf,Color=slate
+].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <9.5>"[Calibre-Regular.ttf]/OT:script=latn;language=dflt
-;mapping=tex-text;color=4D4D47FF
+(fontspec)             <->"[Calibre-Regular.ttf]/OT:script=latn;language=dflt;m
+apping=tex-text;color=4D4D4DFF
 (fontspec)             ;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
 (fontspec)             <->"[Calibre-Semibold.ttf]/OT:script=latn;language=dflt;
-mapping=tex-text;color=4D4D47FF
+mapping=tex-text;color=4D4D4DFF
 (fontspec)             ;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
 (fontspec)             <->"[Calibre-RegularItalic.ttf]/OT:script=latn;language=
-dflt;mapping=tex-text;color=4D4D47FF
+dflt;mapping=tex-text;color=4D4D4DFF
 (fontspec)             ;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
 (fontspec)             <->"[Calibre-SemiboldItalic.ttf]/OT:script=latn;language
-=dflt;mapping=tex-text;color=4D4D47FF
+=dflt;mapping=tex-text;color=4D4D4DFF
 (fontspec)             ;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 
-LaTeX Font Warning: Font shape `TU/Calibre-Regular.ttf(1)/m/n' in size <10> not
- available
-(Font)              size <9.5> substituted on input line 56.
-
-
-LaTeX Font Warning: Font shape `TU/Calibre-Regular.ttf(1)/m/n' in size <40> not
- available
-(Font)              size <9.5> substituted on input line 58.
-
-
-Package fontspec Info: Font family 'Calibre-Regular.ttf(2)' created for font
-(fontspec)             'Calibre-Regular.ttf' with options
-(fontspec)             [Ligatures=TeX,SizeFeatures={Size=9.5},BoldFont=Calibre-
-Semibold.ttf,ItalicFont=Calibre-RegularItalic.ttf,BoldItalicFont=Calibre-Semibo
-ldItalic.ttf,Color=slate,Color=highlight].
+Package fontspec Info: Font family 'EBGaramond-Regular.ttf(1)' created for
+(fontspec)             font 'EBGaramond-Regular.ttf' with options
+(fontspec)             [BoldFont=EBGaramond-Bold.ttf,ItalicFont=EBGaramond-Ital
+ic.ttf,BoldItalicFont=EBGaramond-BoldItalic.ttf,Color=highlight].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <9.5>"[Calibre-Regular.ttf]/OT:script=latn;language=dflt
-;mapping=tex-text;color=C24A54FF
+(fontspec)             <->"[EBGaramond-Regular.ttf]/OT:script=latn;language=dfl
+t;color=4F78BAFF
 (fontspec)             ;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"[EBGaramond-Regular.ttf]/OT:script=latn;language=dfl
+t;+smcp;color=4F78BAFF
+(fontspec)             ;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"[Calibre-Semibold.ttf]/OT:script=latn;language=dflt;
-mapping=tex-text;color=C24A54FF
+(fontspec)             <->"[EBGaramond-Bold.ttf]/OT:script=latn;language=dflt;c
+olor=4F78BAFF
 (fontspec)             ;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"[EBGaramond-Bold.ttf]/OT:script=latn;language=dflt;+
+smcp;color=4F78BAFF
+(fontspec)             ;"
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"[Calibre-RegularItalic.ttf]/OT:script=latn;language=
-dflt;mapping=tex-text;color=C24A54FF
+(fontspec)             <->"[EBGaramond-Italic.ttf]/OT:script=latn;language=dflt
+;color=4F78BAFF
 (fontspec)             ;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"[EBGaramond-Italic.ttf]/OT:script=latn;language=dflt
+;+smcp;color=4F78BAFF
+(fontspec)             ;"
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"[Calibre-SemiboldItalic.ttf]/OT:script=latn;language
-=dflt;mapping=tex-text;color=C24A54FF
+(fontspec)             <->"[EBGaramond-BoldItalic.ttf]/OT:script=latn;language=
+dflt;color=4F78BAFF
 (fontspec)             ;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-
-
-LaTeX Font Warning: Font shape `TU/Calibre-Regular.ttf(2)/m/n' in size <40> not
- available
-(Font)              size <9.5> substituted on input line 58.
-
-
-LaTeX Font Warning: Font shape `TU/Calibre-Regular.ttf(2)/m/sc' undefined
-(Font)              using `TU/Calibre-Regular.ttf(2)/m/n' instead on input line
- 58.
-
-
-LaTeX Font Warning: Font shape `TU/Calibre-Regular.ttf(2)/b/sc' undefined
-(Font)              using `TU/Calibre-Regular.ttf(2)/b/n' instead on input line
- 58.
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"[EBGaramond-BoldItalic.ttf]/OT:script=latn;language=
+dflt;+smcp;color=4F78BAFF
+(fontspec)             ;"
 
 
 Package fontspec Info: Font family 'SFMono-Regular.ttf(1)' created for font
@@ -637,7 +651,7 @@ Space,Color=darkslate].
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[SFMono-Regular.ttf]/OT:language=dflt;color=2E2E29FF
+(fontspec)             <->"[SFMono-Regular.ttf]/OT:language=dflt;color=262626FF
 
 (fontspec)             ;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
@@ -657,7 +671,7 @@ Space,Color=darkslate,Color=slate].
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[SFMono-Regular.ttf]/OT:language=dflt;color=4D4D47FF
+(fontspec)             <->"[SFMono-Regular.ttf]/OT:language=dflt;color=4D4D4DFF
 
 (fontspec)             ;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
@@ -677,7 +691,7 @@ Space,Color=slate].
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[SFMono-Regular.ttf]/OT:language=dflt;color=4D4D47FF
+(fontspec)             <->"[SFMono-Regular.ttf]/OT:language=dflt;color=4D4D4DFF
 
 (fontspec)             ;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
@@ -688,135 +702,74 @@ Space,Color=slate].
 (fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
 
 
+Package fontspec Info: Font family 'Calibre-Regular.ttf(2)' created for font
+(fontspec)             'Calibre-Regular.ttf' with options
+(fontspec)             [Ligatures=TeX,BoldFont=Calibre-Semibold.ttf,ItalicFont=
+Calibre-RegularItalic.ttf,BoldItalicFont=Calibre-SemiboldItalic.ttf,Color=slate
+,LetterSpace=10].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[Calibre-Regular.ttf]/OT:script=latn;language=dflt;l
+etterspace=10;mapping=tex-text;color=4D4D4DFF
+(fontspec)             ;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[Calibre-Semibold.ttf]/OT:script=latn;language=dflt;
+letterspace=10;mapping=tex-text;color=4D4D4DFF
+(fontspec)             ;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[Calibre-RegularItalic.ttf]/OT:script=latn;language=
+dflt;letterspace=10;mapping=tex-text;color=4D4D4DFF
+(fontspec)             ;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"[Calibre-SemiboldItalic.ttf]/OT:script=latn;language
+=dflt;letterspace=10;mapping=tex-text;color=4D4D4DFF
+(fontspec)             ;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+
 Package fontspec Info: Font family 'Calibre-Regular.ttf(3)' created for font
 (fontspec)             'Calibre-Regular.ttf' with options
-(fontspec)             [Ligatures=TeX,SizeFeatures={Size=9.5},BoldFont=Calibre-
-Semibold.ttf,ItalicFont=Calibre-RegularItalic.ttf,BoldItalicFont=Calibre-Semibo
-ldItalic.ttf,Color=slate,LetterSpace=10].
+(fontspec)             [Ligatures=TeX,BoldFont=Calibre-Semibold.ttf,ItalicFont=
+Calibre-RegularItalic.ttf,BoldItalicFont=Calibre-SemiboldItalic.ttf,Color=slate
+,Color=darkslate].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <9.5>"[Calibre-Regular.ttf]/OT:script=latn;language=dflt
-;letterspace=10;mapping=tex-text;color=4D4D47FF
+(fontspec)             <->"[Calibre-Regular.ttf]/OT:script=latn;language=dflt;m
+apping=tex-text;color=262626FF
 (fontspec)             ;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
 (fontspec)             <->"[Calibre-Semibold.ttf]/OT:script=latn;language=dflt;
-letterspace=10;mapping=tex-text;color=4D4D47FF
+mapping=tex-text;color=262626FF
 (fontspec)             ;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
 (fontspec)             <->"[Calibre-RegularItalic.ttf]/OT:script=latn;language=
-dflt;letterspace=10;mapping=tex-text;color=4D4D47FF
+dflt;mapping=tex-text;color=262626FF
 (fontspec)             ;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
 (fontspec)             <->"[Calibre-SemiboldItalic.ttf]/OT:script=latn;language
-=dflt;letterspace=10;mapping=tex-text;color=4D4D47FF
+=dflt;mapping=tex-text;color=262626FF
 (fontspec)             ;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
-
-LaTeX Font Warning: Font shape `TU/Calibre-Regular.ttf(3)/m/n' in size <10> not
- available
-(Font)              size <9.5> substituted on input line 82.
-
-
-Package fontspec Info: Font family 'Calibre-Regular.ttf(4)' created for font
-(fontspec)             'Calibre-Regular.ttf' with options
-(fontspec)             [Ligatures=TeX,SizeFeatures={Size=9.5},BoldFont=Calibre-
-Semibold.ttf,ItalicFont=Calibre-RegularItalic.ttf,BoldItalicFont=Calibre-Semibo
-ldItalic.ttf,Color=slate,LetterSpace=10,Color=highlight].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <9.5>"[Calibre-Regular.ttf]/OT:script=latn;language=dflt
-;letterspace=10;mapping=tex-text;color=C24A54FF
-(fontspec)             ;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"[Calibre-Semibold.ttf]/OT:script=latn;language=dflt;
-letterspace=10;mapping=tex-text;color=C24A54FF
-(fontspec)             ;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"[Calibre-RegularItalic.ttf]/OT:script=latn;language=
-dflt;letterspace=10;mapping=tex-text;color=C24A54FF
-(fontspec)             ;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"[Calibre-SemiboldItalic.ttf]/OT:script=latn;language
-=dflt;letterspace=10;mapping=tex-text;color=C24A54FF
-(fontspec)             ;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-
-
-LaTeX Font Warning: Font shape `TU/Calibre-Regular.ttf(4)/m/n' in size <10> not
- available
-(Font)              size <9.5> substituted on input line 82.
-
-
-LaTeX Font Warning: Font shape `TU/Calibre-Regular.ttf(4)/m/n' in size <9> not 
-available
-(Font)              size <9.5> substituted on input line 82.
-
-
-Package fontspec Info: Font family 'Calibre-Regular.ttf(5)' created for font
-(fontspec)             'Calibre-Regular.ttf' with options
-(fontspec)             [Ligatures=TeX,SizeFeatures={Size=9.5},BoldFont=Calibre-
-Semibold.ttf,ItalicFont=Calibre-RegularItalic.ttf,BoldItalicFont=Calibre-Semibo
-ldItalic.ttf,Color=slate,Color=darkslate].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <9.5>"[Calibre-Regular.ttf]/OT:script=latn;language=dflt
-;mapping=tex-text;color=2E2E29FF
-(fontspec)             ;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"[Calibre-Semibold.ttf]/OT:script=latn;language=dflt;
-mapping=tex-text;color=2E2E29FF
-(fontspec)             ;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"[Calibre-RegularItalic.ttf]/OT:script=latn;language=
-dflt;mapping=tex-text;color=2E2E29FF
-(fontspec)             ;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"[Calibre-SemiboldItalic.ttf]/OT:script=latn;language
-=dflt;mapping=tex-text;color=2E2E29FF
-(fontspec)             ;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-
-
-LaTeX Font Warning: Font shape `TU/Calibre-Regular.ttf(5)/m/n' in size <10> not
- available
-(Font)              size <9.5> substituted on input line 87.
-
-
-LaTeX Font Warning: Font shape `TU/Calibre-Regular.ttf(0)/m/n' in size <7> not 
-available
-(Font)              size <9.5> substituted on input line 99.
-
-
-LaTeX Font Warning: Font shape `TU/Calibre-Regular.ttf(0)/m/n' in size <5> not 
-available
-(Font)              size <9.5> substituted on input line 99.
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 99.
-
+LaTeX Font Info:    Trying to load font information for U+msa on input line 100
+.
 (C:\Users\huabr\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 99.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 100
+.
 
 (C:\Users\huabr\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -824,13 +777,6 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [1
 
 ] (resume.aux)
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 30.5pt have occurred.
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
 
 Package rerunfilecheck Warning: File `resume.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
@@ -841,12 +787,12 @@ Package rerunfilecheck Info: Checksums for `resume.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 13799 strings out of 410527
- 266851 string characters out of 2813165
- 667566 words of memory out of 3000000
- 34807 multiletter control sequences out of 15000+600000
- 471718 words of font info for 87 fonts, out of 8000000 for 9000
+ 13830 strings out of 410527
+ 267975 string characters out of 2813165
+ 670903 words of memory out of 3000000
+ 34825 multiletter control sequences out of 15000+600000
+ 471798 words of font info for 97 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 72i,6n,81p,300b,430s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 72i,6n,84p,299b,428s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
 Output written on resume.pdf (1 page).
