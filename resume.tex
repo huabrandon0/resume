@@ -10,7 +10,7 @@
 \usepackage{fontawesome}
 \usepackage{amssymb}
 
-% 4.2mm 7mm 1.8mm 0.2mm 3mm
+% 4.2mm 7mm 1.3mm 0.3mm 3mm
 
 \setmainfont{Calibre-Regular.ttf}[BoldFont=Calibre-Semibold.ttf,ItalicFont=Calibre-RegularItalic.ttf,BoldItalicFont=Calibre-SemiboldItalic.ttf]
 \setmonofont{SFMono-Regular.ttf}
@@ -26,7 +26,7 @@
 \definecolor{lighterslate}{rgb}{0.84, 0.84, 0.82}
 
 \newcommand{\heading} [1] {
-    {\addfontfeature{LetterSpace=10} \serif \addfontfeature{Color=highlight} \small \textbf{#1}}
+    {\serif \addfontfeature{Color=highlight} \small \textbf{\uppercase{#1}}}
 }
 
 \newcommand{\sectiontitle} [1] {
@@ -68,10 +68,10 @@
 
 \largetag{
     \begin{itemize*}[label=\quad]
-        \item[] \href{mailto:huabrandon0@gmail.com}{\faEnvelope \enspace huabrandon0@gmail.com}
-        \item \href{https://www.bhua.dev/}{\faHome \enspace bhua.dev}
-        \item \href{https://github.com/huabrandon0}{\faGithubSquare \enspace github.com/huabrandon0}
-        \item \href{https://www.linkedin.com/in/brandon-hua/}{\faLinkedinSquare \enspace linkedin.com/in/brandon-hua}
+        \item[] \href{mailto:huabrandon0@gmail.com}{\color{slate} \faEnvelope \enspace huabrandon0@gmail.com}
+        \item \href{https://www.bhua.dev/}{\color{slate} \faHome \enspace bhua.dev}
+        \item \href{https://github.com/huabrandon0}{\color{slate} \faGithubSquare \enspace github.com/huabrandon0}
+        \item \href{https://www.linkedin.com/in/brandon-hua/}{\color{slate} \faLinkedinSquare \enspace linkedin.com/in/brandon-hua}
     \end{itemize*}
 }
 \end{center}
@@ -80,7 +80,7 @@
 
 \begin{minipage}[t]{0.65\textwidth}
     \raggedright
-    \heading{EXPERIENCE} \raisedrule[0.24em]{1pt}
+    \heading{Experience} \raisedrule[0.24em]{1pt}
 
     \vspace*{4.2mm}
 
@@ -96,7 +96,7 @@
 
         \tag{iOS, Objective-C | Menlo Park, CA}
 
-        \vspace*{1.6mm}
+        \vspace*{1.3mm}
         \begin{itemize}[leftmargin=*, label=$\cdot$, itemsep=0.8mm]
             \item Built out badge notifications within Messenger calls to attract user attention to new features
             \item Implemented logging within avatar video calling to retrieve comprehensive usage data
@@ -118,7 +118,7 @@
 
         \tag{Unity, C\# | Remote}
 
-        \vspace*{1.6mm}
+        \vspace*{1.3mm}
         \begin{itemize}[leftmargin=*, label=$\cdot$, itemsep=0.8mm]
             \item Developed a ``progressive scroll" feature to advertise potential jackpot winnings to slot machine players
             \item Implemented ``backdoor jackpots" into a slot machine game to keep long-term payouts between legal bounds
@@ -139,7 +139,7 @@
 
         \tag{C++, OpenGL | Sunnyvale, CA}
 
-        \vspace*{1.6mm}
+        \vspace*{1.3mm}
         \begin{itemize}[leftmargin=*, label=$\cdot$, itemsep=0.8mm]
             \item Wrote profilers using OpenGL to measure GPU costs of HDR image blending
             \item Prototyped and tested an algorithm used to reduce CPU usage during the display of Dolby Vision encoded videos
@@ -148,7 +148,7 @@
 
     \vspace*{7mm}
 
-    \heading{PROJECTS} \raisedrule[0.24em]{1pt}
+    \heading{Projects} \raisedrule[0.24em]{1pt}
 
     \vspace*{4.2mm}
     
@@ -164,7 +164,7 @@
 
         \tag{Unity, C\#}
 
-        \vspace*{1.6mm}
+        \vspace*{1.3mm}
         \begin{itemize}[leftmargin=*, label=$\cdot$, itemsep=0.8mm]
             \item Created a first-person player controller equipped with responsive controls and animations
             \item Implemented a quest system with a user-friendly pipeline for editing and organizing quests
@@ -185,7 +185,7 @@
 
         \tag{Unity, C\#}
 
-        \vspace*{1.6mm}
+        \vspace*{1.3mm}
         \begin{itemize}[leftmargin=*, label=$\cdot$, itemsep=0.8mm]
             \item Implemented player-drawn B\'ezier curves as a streamlined method for placing dominoes
             \item Serialized game state for easy storage and retrieval of player data
@@ -206,7 +206,7 @@
 
         \tag{Unity, C\#}
 
-        \vspace*{1.6mm}
+        \vspace*{1.3mm}
         \begin{itemize}[leftmargin=*, label=$\cdot$, itemsep=0.8mm]
             \item Integrated the Google Play API to implement in-app purchases and cloud saves
             \item Worked with models, animations, and shaders to create appealing game aesthetics
@@ -216,19 +216,19 @@
 \hfill
 \begin{minipage}[t]{0.3\textwidth}
     \raggedright
-    \heading{EDUCATION} \raisedrule[0.24em]{1pt}
+    \heading{Education} \raisedrule[0.24em]{1pt}
     
     \vspace*{4.2mm}
 
     \sectiontitle{University of California, Los Angeles}
 
-    B.S. Computer Science
+    \vspace*{0.3mm}
 
-    \vspace*{0.2mm}
+    B.S. Computer Science
 
     GPA: 3.75
 
-    \vspace*{1.6mm}
+    \vspace*{1.3mm}
 
     \tag{2015 - 2019}
     
@@ -236,21 +236,23 @@
 
     \sectiontitle{University of California, Los Angeles}
 
+    \vspace*{0.3mm}
+
     Graduate Coursework in Computer Science
 
-    \vspace*{1.6mm}
+    \vspace*{1.3mm}
 
     \tag{2020 - 2022}
     
     \vspace{7mm}
 
-    \heading{SKILLS} \raisedrule[0.24em]{1pt}
+    \heading{Skills} \raisedrule[0.24em]{1pt}
 
     \vspace*{4.2mm}
 
     \sectiontitle{Programming}
 
-    \vspace*{0.2mm}
+    \vspace*{0.3mm}
 
     \largetag{C\#, C/C++, Objective-C, Python, JavaScript, HTML/CSS}
 
@@ -258,7 +260,7 @@
     
     \sectiontitle{Tools/Frameworks}
 
-    \vspace*{0.2mm}
+    \vspace*{0.3mm}
     
     \largetag{Unity, OpenGL, iOS, React, Node.js, SQL, Git, Perforce}
 
@@ -266,19 +268,19 @@
 
     \sectiontitle{Design}
 
-    \vspace*{0.2mm}
+    \vspace*{0.3mm}
     
     \largetag{Figma, Photoshop}
     
     \vspace{7mm}
 
-    \heading{ACTIVITIES} \raisedrule[0.24em]{1pt}
+    \heading{Activities} \raisedrule[0.24em]{1pt}
 
     \vspace*{4.2mm}
 
     \sectiontitle{UCLA Upsilon Pi Epsilon Honor Society}
 
-    \vspace*{0.2mm}
+    \vspace*{0.3mm}
 
     Tutored weekly sessions for undergraduate students in programming and lower-division computer science courses
     
@@ -286,13 +288,13 @@
 
     \sectiontitle{UCLA Association for Computing Machinery}
 
-    \vspace*{0.2mm}
+    \vspace*{0.3mm}
 
     Completed year-long group-based game development projects, honing skills in game design and programming
     
     \vspace{7mm}
 
-    \heading{INTERESTS} \raisedrule[0.24em]{1pt}
+    \heading{Interests} \raisedrule[0.24em]{1pt}
 
     \vspace*{4.2mm}
 
