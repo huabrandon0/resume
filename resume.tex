@@ -20,7 +20,7 @@
 \thispagestyle{empty}
 \definecolor{highlight}{rgb}{0.31, 0.47, 0.73}
 \definecolor{darkslate}{rgb}{0.16, 0.16, 0.16}
-\definecolor{slate}{rgb}{0.32, 0.32, 0.32}
+\definecolor{slate}{rgb}{0.4, 0.4, 0.4}
 \definecolor{lightslate}{rgb}{0.44, 0.44, 0.44}
 \definecolor{lighterslate}{rgb}{0.84, 0.84, 0.84}
 
@@ -30,6 +30,10 @@
 
 \newcommand{\sectiontitle} [1] {
     {\addfontfeature{Color=darkslate} \textbf{#1}}
+}
+
+\newcommand{\sectiontitleposition} [2] {
+    {\textbf{{\addfontfeature{Color=darkslate} #1} {\addfontfeature{Color=slate} @ #2}}}
 }
 
 \newcommand{\tag} [1] {
@@ -81,7 +85,7 @@
 
     \vspace*{4.2mm}
 
-    \sectiontitle{Software Engineer at Meta}\hfill\tag{Tech: iOS, Objective-C, C}
+    \sectiontitleposition{Software Engineer}{Meta}\hfill\tag{Tech: iOS, Objective-C, C}
 
     \tag{Apr 2022 - Jan 2023 | Menlo Park, CA}
 
@@ -95,7 +99,7 @@
 
     \vspace*{4.2mm}
 
-    \sectiontitle{Unity Development Intern at Light and Wonder}\hfill\tag{Tech: Unity, C\#}
+    \sectiontitleposition{Unity Development Intern}{Light and Wonder}\hfill\tag{Tech: Unity, C\#}
 
     \tag{Jul 2021 - Mar 2022 | Remote}
 
@@ -108,7 +112,7 @@
 
     \vspace*{4.2mm}
 
-    \sectiontitle{Software Engineering Intern at Dolby}\hfill\tag{Tech: C++, OpenGL, Python}
+    \sectiontitleposition{Software Engineering Intern}{Dolby}\hfill\tag{Tech: C++, OpenGL, Python}
 
     \tag{Sep 2019 - Jun 2020 | Sunnyvale, CA}
 
