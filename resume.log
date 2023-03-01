@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2023.1.4)  17 FEB 2023 05:12
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2023.1.4)  1 MAR 2023 15:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -789,7 +789,7 @@ Package rerunfilecheck Info: Checksums for `resume.out':
 Here is how much of TeX's memory you used:
  13826 strings out of 410527
  267488 string characters out of 2813165
- 671884 words of memory out of 3000000
+ 672884 words of memory out of 3000000
  34822 multiletter control sequences out of 15000+600000
  471798 words of font info for 97 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
