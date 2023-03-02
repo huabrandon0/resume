@@ -1,1 +1,1 @@
-My resume made with LaTeX.
+My [resume](/resume.pdf) made with LaTeX.
